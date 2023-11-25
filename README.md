@@ -34,33 +34,6 @@ In the second terminal
 - Create your mongoDB connection url, which you'll use as your MONGO_URI
 - Supply the following credentials
 
-```
-#  ---  Config.env  ---
-
-NODE_ENV = development
-PORT =5000
-URI =http://localhost:3000
-MONGO_URI =
-JWT_SECRET_KEY =
-JWT_EXPIRE = 60m
-RESET_PASSWORD_EXPIRE = 3600000 
-
-# Nodemailer
-
-SMTP_HOST =smtp.gmail.com
-SMTP_PORT =587
-EMAIL_USERNAME = example@gmail.com
-EMAIL_PASS = your_password
-```
-
-
-```
-# --- Terminal ---
-
-$ npm install (to install backend-side dependencies)
-$ npm start (to start the backend)
-```
-
 
 ##  Key Features
 
@@ -86,8 +59,6 @@ This project was created using the following technologies.
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom) - To handle routing
 - [axios](https://www.npmjs.com/package/axios) - For making Api calls
 - [Css](https://developer.mozilla.org/en-US/docs/Web/CSS) - For User Interface
-- [CK-Editor](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/react.html) - Rich Text Editor 
-- [uuid](https://www.npmjs.com/package/uuid) - For random id generator
 - [React icons](https://react-icons.github.io/react-icons/) -
  Small library that helps you add icons  to your react apps.
 
@@ -102,10 +73,7 @@ This project was created using the following technologies.
 - [jsonwebtoken  ](https://reactjs.org/docs/hooks-intro.html) - For authentication
 - [bcryptjs](https://www.npmjs.com/package/react-router-dom) - For data encryption
 - [Nodemailer](https://www.npmjs.com/package/axios) - Send e-mails from Node.js
-- [dotenv](https://developer.mozilla.org/en-US/docs/Web/CSS) - Zero Dependency module that loads environment variables
 - [multer](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/react.html) - Node.js middleware for uploading files 
-- [slugify](https://www.npmjs.com/package/uuid) - For encoding titles into a URL-friendly format
-- [cors](https://www.npmjs.com/package/uuid) - Provides a Connect/Express middleware
 
 
 ####  Database 
